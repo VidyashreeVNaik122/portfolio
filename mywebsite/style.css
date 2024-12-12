@@ -1,0 +1,219 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    height: 100%;
+    padding: 20px;
+}
+
+/* General Page Layout and Border */
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.page-container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #333; /* Page border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Header Section */
+.page-header h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.page-header a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Bio-data and Resume Common Styling */
+h3 {
+    font-size: 22px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 0 20px;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Personal Details Section */
+.personal-details table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+.personal-details table th, .personal-details table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.personal-details table td {
+    font-size: 18px;
+}
+
+.image-cell {
+    text-align: left;
+}
+
+.image-cell img {
+    width: 250x;
+    height: 250px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+
+/* Education Section */
+.education table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+.education table th, .education table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.education table th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Projects and Skills */
+.projects ul, .skills ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.projects li, .skills li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Spacing adjustments for Resume Page */
+.resume-container, .biodata-container {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+
+/* For Bio-data Image */
+.image-cell img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Section Headers */
+section h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Signature Section */
+.signature {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Flex Layout for Resume */
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-columns section {
+    width: 48%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .two-columns {
+        flex-direction: column;
+    }
+
+    .two-columns section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
